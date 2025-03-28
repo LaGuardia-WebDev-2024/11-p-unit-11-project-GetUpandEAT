@@ -23,6 +23,10 @@ setup = function() {
      text("🐕", dogX[i], dogY[i]);
    }
    
+   if(mousePressed){
+   
+   }
+   
    fill(100,200,100);
    rect(-10, 300, 610, 150);
 

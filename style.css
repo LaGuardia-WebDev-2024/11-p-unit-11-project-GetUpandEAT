@@ -1,11 +1,14 @@
 body {
-  background-color: aliceblue;
+  background-color: blue;
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; 
 /*   margin-top: 10%; */
   font-family: Georgia, serif;
+  background-image: url("https://www.housedigest.com/img/gallery/15-types-of-wood-that-are-easy-to-build-with/cherry-wood-1637004022.jpg");
+  
+  
 }
 
 html{
@@ -21,6 +24,7 @@ html{
   display: flex;
   flex-wrap: wrap;
   background-color: gray;
+  background-image: url("https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjExMTYtcGF0dGVybi0wMWMteC5qcGc.jpg");
   justify-content: space-around;
   align-items: flex-start;
   padding-bottom: 20px;
@@ -43,5 +47,5 @@ h2{
 }
 
 #end{
-  text-align: right;
+  text-align: center;
 }
