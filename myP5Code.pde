@@ -16,22 +16,20 @@ var starY = [0];
 
 // rose 🌹
 
+// person 🏃
+
 
 setup = function() {
    size(600, 450); 
    background(164, 212, 255);
-   frameRate(8);
+   frameRate(20);
    fill(100,200,100);
   rect(-10, 300, 610, 150); }
 
 draw = function(){    
-
   fill(255,190, 0);
   noStroke();
   ellipse(590, 10, 150, 150);
-  
- 
-   
    
    textSize(30);
    for(var i = 0; i < catX.length; i++){
@@ -55,6 +53,15 @@ draw = function(){
    }
 
 
+// custom function calls
+drawPer(320, 380);
+drawPer(130, 300);
+drawPer(540, 330);
+
 };
 
-
+// custom function
+var drawPer = function(personX, personY){
+  textSize(40);
+  text("🏃", personX, personY); 
+}
